@@ -35,5 +35,5 @@ with open('Resources/election_data.csv.csv') as csv_file:
     output += f'Winner: {winner}\n-------------------------\n'
 print(output)
 
-with open('Analysis/output.txt', 'w') as output_txt:
+with open('C:/Users/mallo/Documents/python-challenge/PyPoll/Analysis/output.txt', 'w') as output_txt:
     output_txt.write(output)

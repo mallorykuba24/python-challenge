@@ -80,11 +80,11 @@ print("Greatest Decrease in Profits: " + str(greatest_decrease_date) + " ($" + s
 
 
 #print as a text file
-with open('PyBank\Analysis\output.txt', 'w') as output_txt:
+with open('C:/Users/mallo/Documents/python-challenge/PyBank/Analysis/output.txt', 'w') as output_txt:
     output_txt.write("\n")
     output_txt.write("Financial Analysis\n")
     output_txt.write("----------------------------------------------------------\n")
-    output_txt.write(("Total Months" + "+ " + str(count) + "\n" ))
+    output_txt.write(("Total Months" + ": " + str(count) + "\n" ))
     output_txt.write(("Total: " + "$" + str(total_revenue) + "\n"))
     output_txt.write("Average Change: " + "$" + "{:.2f}".format(revenue_change_average) + "\n")
     output_txt.write("Greatest Increase in Profits: " + str(greatest_increase_date) + " ($" + str(greatest_increase_revenue) + ")" + "\n")
